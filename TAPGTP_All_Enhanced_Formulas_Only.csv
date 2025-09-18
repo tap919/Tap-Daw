@@ -1,0 +1,25 @@
+Label,Formula
+Trueness,"Dual Trueness(Dual A, Dual B, Dual N, double k=3.0) {...}"
+Tap10,PCA-weighted top-k vector blend + renormalized weights
+Flow,rk4_step applied over Flow system state evolution
+PCS (Partner Criteria Score),"PCS = dot(PCA_compressed_vec, weights)"
+RPS (Rollout Priority Score),"RPS = synergy * (1 - min(1, VaR(risk_series)))"
+TAP_Speak_0,Condenses long processes into shorthand equations or catchphrases
+TAP_Speak_1,Acts as a translation layer between raw complexity and usable insight
+TAP_Speak_2,Helps with cross-discipline mapping (sports ↔ biotech ↔ business)
+TAP_Speak_3,Often used to express rules like 'even the truth must be fine-tuned'
+TAP_Speak_4,Keeps system portable — one shorthand can plug into multiple modules
+TAP_Speak_5,Should have a small glossary of most-used terms
+TAP_Speak_6,Works best when rules are stated like 'if X then Y unless Z' in TAP form
+TAP_Speak_7,Serves as mental shorthand during rapid buildouts
+TAP_Speak_8,Reinforces consistency of language across IBS
+TAP_Speak_9,Integrates by keeping a running log of TAP terms + meanings
+BusinessBuilder_0,Step
+BusinessBuilder_1,Idea Intake
+BusinessBuilder_2,Scoring
+BusinessBuilder_3,Structure
+BusinessBuilder_4,Prototype
+BusinessBuilder_5,Readiness Check
+BusinessBuilder_6,Go/No-Go
+BusinessBuilder_7,Partner Match
+BusinessBuilder_8,Launch
