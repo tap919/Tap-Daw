@@ -5,7 +5,6 @@ namespace mydaw::pads {
 struct PadHit{ uint8_t bank, pad, vel; };
 class PadSampler : public Node{
 public:
-  void prepare(double,double) override {}
   void prepare(double sr,int block) override {(void)sr;(void)block;}
   void process(const AudioBlock&) override {}
   int latencySamples() const override { return 0; }

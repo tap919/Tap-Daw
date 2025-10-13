@@ -1,0 +1,3 @@
+/home/runner/work/Tap-Daw/Tap-Daw/MyDAW/build/CMakeFiles/MyDAW.dir
+/home/runner/work/Tap-Daw/Tap-Daw/MyDAW/build/CMakeFiles/edit_cache.dir
+/home/runner/work/Tap-Daw/Tap-Daw/MyDAW/build/CMakeFiles/rebuild_cache.dir
