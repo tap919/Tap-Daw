@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Normalize for packaging; display name can live in README
+name = "tapdaw_phase1"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["automation", "generator"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tapdaw_phase1*"]
