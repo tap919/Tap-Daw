@@ -39,3 +39,9 @@ Thumbs.db
 *.tmp
 *.temp
 /tmp/
+
+# Log files
+*.log
+alignment_ledger.log
+telemetry.log
+
