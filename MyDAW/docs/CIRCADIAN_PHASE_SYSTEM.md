@@ -41,6 +41,18 @@ Located at `telemetry.log`, this file provides comprehensive event logging inclu
 
 ## Usage
 
+### Building the Project
+
+First, ensure the project is built:
+
+```bash
+cd MyDAW
+mkdir -p build
+cd build
+cmake ..
+make
+```
+
 ### Running the GUI
 
 ```bash
@@ -104,4 +116,6 @@ The default schedule is based on common productivity patterns:
 - Afternoon (SHIP): Peak execution, task completion
 - Evening (REST): Wind down, recovery
 
-You can modify the schedule by editing `CircadianPhaseManager::determinePhaseFromTime()` in `src/CircadianPhaseManager.cpp`.
+### Customizing the Schedule
+
+If you need to customize the phase schedule for your timezone or work preferences, you can modify the time boundaries in the source code. The phase determination logic is located in `src/CircadianPhaseManager.cpp` in the `determinePhaseFromTime()` method. Future versions may support configuration file-based schedule customization.
