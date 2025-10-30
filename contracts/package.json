@@ -1,0 +1,22 @@
+{
+  "name": "@tap-daw/contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Tap DAW - ProofOfAction with phase tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Contract tests require deployment environment'",
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o ./build contracts/ProofOfAction.sol",
+    "clean": "rm -rf build artifacts cache"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "solidity",
+    "proof-of-action"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "solc": "^0.8.20"
+  }
+}
