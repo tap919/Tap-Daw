@@ -22,6 +22,8 @@ Makefile
 # Executables
 *.exe
 *.out
+MyDAW
+test_circadian_phase
 MyDAW/build/MyDAW
 
 # IDE and editor files
@@ -39,3 +41,9 @@ Thumbs.db
 *.tmp
 *.temp
 /tmp/
+
+# Log files
+*.log
+alignment_ledger.log
+telemetry.log
+
