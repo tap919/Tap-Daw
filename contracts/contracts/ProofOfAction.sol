@@ -31,6 +31,7 @@ contract ProofOfAction {
      */
     function attest(string memory action, Phase phase) external {
         require(bytes(action).length > 0, "Action cannot be empty");
+        require(uint8(phase) <= uint8(Phase.REST), "Invalid phase");
         
         attestationCount[msg.sender]++;
         

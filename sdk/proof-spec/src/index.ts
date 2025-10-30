@@ -57,7 +57,8 @@ export class ProofSpecClient {
     } else {
       // It's a Provider - create a read-only contract
       this.contract = new Contract(contractAddress, PROOF_OF_ACTION_ABI, signerOrProvider);
-      this.signer = null as any;
+      // TypeScript requires initialization - signer is not available in read-only mode
+      this.signer = undefined as any;
     }
   }
 
@@ -77,7 +78,9 @@ export class ProofSpecClient {
       throw new Error('Action cannot be empty');
     }
 
-    if (phase < Phase.LEARN || phase > Phase.REST) {
+    // Validate phase using enum values
+    const validPhases = [Phase.LEARN, Phase.SHIP, Phase.REST];
+    if (!validPhases.includes(phase)) {
       throw new Error('Invalid phase value');
     }
 
